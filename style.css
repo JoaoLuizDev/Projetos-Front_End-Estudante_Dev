@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #649ce0;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 2rem; 
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+    color: #0056b3; 
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
+h4 {
+    background-color: #ff8c00;
+}
+
+.legenda {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    margin-left: 10rem;
+}
+
+.legenda:hover {
+    color: #0056b3;
+    background-color: #ffffff; 
+}
+
+footer {
+    text-align: center;    
+    color: #ffffff;
+    width: 100%; 
+    background-color: #649ce0;
+    padding-bottom: 1rem;
+}
+
+.contato {
+    padding: 20px;
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.mensagem {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #0056b3; 
+}
+
+.copyright {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+footer p {
+    padding-bottom: 0.5rem;
+}
+
+.redes-sociais a img {
+    filter: invert(45%);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 4px;
+}
